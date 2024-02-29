@@ -1,0 +1,23 @@
+
+th {
+    background-color: rgba(83, 147, 10, 0.985);
+    color: white;
+}
+
+td:nth-child(even) {
+    background-color:rgb(198, 239, 157);
+}
+td:nth-child(odd) {
+    background-color: lightgoldenrodyellow;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+
+td,th {
+    border: 2px solid #000;
+    width: 135px;
+}
